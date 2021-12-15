@@ -1,6 +1,10 @@
 # About
 
-My personal configuration file for NeoVim. The main plugins used are ALE and COC for linting and autocompletion, plus NerdTree and FZF for file management.
+My personal configuration file for NeoVim.
+ - Uses COQ for autocompletion
+   - COQ pulls from nvim_lspconfig
+ - Custom status bar, written mostly in vimscript
+ - Some lua functions for linting features
 
 # Installation
 
